@@ -1,1 +1,7 @@
-# harshitha_chollangi.github.io
+# About
+# Education
+# Skills
+# Experiences
+# Projects
+# Archievements
+# Others
