@@ -1,5 +1,3 @@
-# Link
-https://harshithach999.github.io/harshitha_chollangi.github.io/
 # About
 I am currently pursuing a master's degree in data science and actively seeking job opportunities in the field, where the focus is on leveraging data to uncover valuable insights. My goal is to further develop my skills and gain practical experience by engaging in projects that heavily rely on data analysis.
 
@@ -44,10 +42,6 @@ Software Developer Intern, Exposys Data Labs, India December 2020- January 2021
 solutions.
 • Implemented features and functionalities using JavaScript on the client side and Java on the server side and utilized Apache Tomcat for 
 application deployment and server management.
-Research Intern, International Institute of Information Technology Hyderabad, India September 2020 – December 2020 
-• The IUDX-RS architecture, OM2M, and API layer were successfully implemented as part of the project. 
-• A Data Lake architecture was deployed for a large-scale Internet of Things (IoT) implementation at the campus level, enabling real-time 
-and historical data collection by passing an API key to OM2M and Postman.
 # Projects
 1.Image Captioning April 2023
 This project focuses on deep learning-based picture captioning. It involves steps such as image preprocessing, text processing, feature 
