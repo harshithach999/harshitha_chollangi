@@ -1,11 +1,12 @@
+
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
-    min-height: 100vh; /* Changed to min-height for better mobile flexibility */
-    flex-direction: column; /* Change to column for better stacking on smaller screens */
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* Sidebar Styling */
@@ -116,74 +117,4 @@ a:hover {
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
-}
-
-/* Responsive Design for Mobile Devices */
-@media (max-width: 768px) {
-    /* Stack sidebar and content vertically on smaller screens */
-    body {
-        flex-direction: column;
-    }
-
-    /* Adjust sidebar for smaller screens */
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        box-shadow: none;
-        margin-bottom: 20px;
-    }
-
-    .profile-pic img {
-        width: 120px;
-        height: 120px;
-    }
-
-    /* Adjust main content area */
-    .main-content {
-        margin-left: 0;
-        width: 100%;
-        padding: 20px;
-    }
-
-    /* Adjust headings and font size for smaller screens */
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2, h3 {
-        font-size: 1.3rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
-    }
-}
-
-/* Extra small devices (phones) */
-@media (max-width: 480px) {
-    .profile-pic img {
-        width: 100px;
-        height: 100px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2, h3 {
-        font-size: 1.2rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-    }
-
-    nav ul li a {
-        font-size: 0.9rem;
-    }
 }
